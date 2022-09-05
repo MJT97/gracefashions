@@ -1,0 +1,182 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+#home
+{
+	height: 170px;
+}
+
+#announcer
+{
+	margin-top: -17px;
+	background-color: black;
+	color: white;
+	height: 25px;
+}
+#Logo
+{
+	text-align: auto;
+	font-family: Cambria;
+	color: black;
+	height: auto;
+	width: auto;
+	font-size: xx-large;
+	margin-top: 0px;
+}
+
+nav img
+{
+	float: left;
+	height: 70px;
+	width: 80px;
+	margin-top:30px;
+	
+}
+
+#searchbar
+{
+	text-align: right;
+	margin-top: -95px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+#tabs
+{
+	margin-top: 50px;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+
+.sub a
+{
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+#sectabs
+{
+	text-align: right;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	text-decoration: none;
+}
+
+#socials
+{
+	text-align: left;
+	margin-top: -22px;
+	margin-left: 10px;	
+}
+
+#socials img
+{
+	height: 30px;
+	width: 30px;
+}
+
+#categories
+{
+	text-align: left;
+	margin-top: -50px;
+}
+
+.important
+{
+  	color:black;
+}
+
+nav u1 
+{
+ 	list-style-type: none;
+ 	text-align: center;
+}
+
+nav li 
+{
+	display: inline-block;
+ 	padding: 0px 8px 2px 8px;
+ 	margin: 2px 4px 2px 4px;
+ 	background-color: darkgray;
+ 	border: outset;
+ 	border-color: gray;
+	text-align: center;
+}
+
+nav a 
+{
+ 	text-decoration: none;
+}
+
+
+l1
+{
+ 	text-align: center;
+}
+
+#rectext
+{
+	text-align: center;
+	
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	height: 100px;
+	margin-bottom: -10px;
+}
+
+footer u2
+{
+	float: right;
+ 	margin-right: 20px;
+	margin-top: 5px;
+}
+
+#socialsb
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;	
+}
+
+#socialsb img
+{
+	height: 30px;
+	width: 30px;
+	margin: 5px;
+}
+
+#specials
+{
+	
+}
+
+#specials img
+{
+	height: 90vw;
+	width: 93vw;
+        
+}
+
+
+
+#copy
+{
+	float: center;
+	border-style: none;
+	height: 80px;
+}
+
+#copyright
+{
+	text-align: center;
+	margin-top: 60px;
+}
