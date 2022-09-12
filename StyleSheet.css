@@ -2,13 +2,9 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.599);
 }
 
-#home
-{
-	height: 170px;
-}
 
 #announcer
 {
@@ -17,73 +13,37 @@ body
 	color: white;
 	height: 25px;
 }
-#Logo
+#Logo img
 {
-	text-align: auto;
-	font-family: Cambria;
-	color: black;
+	text-align: center;
 	height: auto;
-	width: auto;
-	font-size: xx-large;
-	margin-top: 0px;
+	width:  100%;
 }
 
-nav img
+#logo
 {
-	float: left;
-	height: 70px;
-	width: 80px;
-	margin-top:30px;
-	
+
+	margin: 0px;
+	padding: 0px;
+	margin-top: -20px;
+	border: none;
 }
 
-#searchbar
+#panel
 {
-	text-align: right;
-	margin-top: -95px;
-	margin-bottom: 20px;
-	margin-right: 10px;
+	height: auto;
+	margin: 0px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	border: none;
 }
+
 
 #tabs
 {
-	margin-top: 50px;
 	text-align: center;
 	width: auto;
 	height: auto;
-}
-
-.sub a
-{
-	text-decoration: none;
-	margin-right: 10px;
-}
-
-#sectabs
-{
-	text-align: right;
-	margin-top: 2px;
-	margin-bottom: 3px;
-	text-decoration: none;
-}
-
-#socials
-{
-	text-align: left;
-	margin-top: -22px;
-	margin-left: 10px;	
-}
-
-#socials img
-{
-	height: 30px;
-	width: 30px;
-}
-
-#categories
-{
-	text-align: left;
-	margin-top: -50px;
 }
 
 .important
@@ -102,21 +62,71 @@ nav li
 	display: inline-block;
  	padding: 0px 8px 2px 8px;
  	margin: 2px 4px 2px 4px;
- 	background-color: darkgray;
+ 	background-color: white;
  	border: outset;
- 	border-color: gray;
+ 	border-color: silver;
 	text-align: center;
+	height: auto;
+	width: auto;
 }
 
 nav a 
 {
  	text-decoration: none;
+	color: black;
 }
 
 
 l1
 {
  	text-align: center;
+}
+
+
+#sub
+{
+	height: auto;
+	width: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: -8px;
+	margin-bottom: -8px;
+	border: none;
+}
+
+#sectabs
+{
+	float: right;
+	margin-top: -4px;
+	margin-bottom: -10px;
+	text-decoration: none;
+}
+
+#sectabs a
+{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#searchbar
+{
+	float: left;
+	margin: -10px;
+	margin-bottom: -24px;
+	margin-top: -21px;	
+}
+
+#search
+{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#categories
+{
+	text-align: left;
+	margin-top: -50px;
 }
 
 #rectext
@@ -154,9 +164,14 @@ footer u2
 	margin: 5px;
 }
 
-#specials
+#specials, #popular, #recent, #out, #opened
 {
-	
+	height: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+	box-shadow: 10px;
+	background-color: rgb(255, 255, 255); 	
 }
 
 #specials img
@@ -166,7 +181,11 @@ footer u2
         
 }
 
-
+#data
+{
+	background-color: beige;
+	margin-top: -8px;
+}
 
 #copy
 {
